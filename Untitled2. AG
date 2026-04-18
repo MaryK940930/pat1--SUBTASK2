@@ -1,0 +1,48 @@
+// Matabologa M
+//112300340
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Declare the variables
+    int temp1;
+    int temp2;
+    int temp3;
+
+    // Input the first temperature reading
+    cout << "Enter the first temperature reading: ";
+    cin >> temp1;
+
+    // Input the second temperature reading
+    cout << "Enter the second temperature reading: ";
+    cin >> temp2;
+
+    // Check the difference
+    int difference = temp1 - temp2;
+
+    if (difference > 50)
+    {
+        cout << "Reduce fryer heat before taking the third reading." << endl;
+    }
+    else if (difference < 10)
+    {
+        cout << "Increase the fryer heat before taking the third reading." << endl;
+    }
+
+    // Input the third temperature reading
+    cout << "Enter the third reading: ";
+    cin >> temp3;
+
+    // Check if the oil is ready
+    if (temp3 >= 150 && temp3 <= 190)
+    {
+        cout << "You may start frying the magwinyas, oil is ready." << endl; 
+    }
+    else
+    {
+        cout << "Oil is not ready!" << endl;
+    }
+
+    return 0;
+}
