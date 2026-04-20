@@ -27,7 +27,7 @@ int main()
     cin >> temp3;
 
     if (temp3 >= 150 && temp3 <= 190) {
-        cout << "You may start frying the Magwinyas." << endl;
+        cout << "You may start frying the Magwinyas." << endl;// Oil is ready 
     }
     else {
         cout << "Oil is not ready for frying!" << endl;
