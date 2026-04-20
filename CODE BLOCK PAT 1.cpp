@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //Temperature variables
     int temp1;
     int temp2;
     int temp3;
