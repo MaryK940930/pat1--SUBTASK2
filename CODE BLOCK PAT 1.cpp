@@ -23,7 +23,7 @@ int main()
         cout << "Increase the fryer heat before taking the third reading." << endl;
     }
 
-    cout << "Enter the third temperature reading: ";
+    cout << "Enter the third temperature reading: ";//kopano
     cin >> temp3;
 
     if (temp3 >= 150 && temp3 <= 190) {
