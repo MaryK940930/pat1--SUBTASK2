@@ -17,7 +17,7 @@ int main()
     int increase = temp2 - temp1;
 
     if (increase > 50) {
-        cout << "Reduce fryer heat before taking the third reading." << endl;
+        cout << " Reduce fryer heat before taking the third reading." << endl;
     }
     else if (increase < 10) {
         cout << "Increase the fryer heat before taking the third reading." << endl;
